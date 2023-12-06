@@ -1,4 +1,4 @@
-baseurl: https://blist.vercel.app
+baseurl: http://www.fgl.imb.br/
 metaDataFormat: yaml
 title: Blist Multilingual Theme
 theme: blist-hugo-theme
