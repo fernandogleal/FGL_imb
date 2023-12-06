@@ -1,0 +1,56 @@
+title: Galpões FGL
+languageCode: pt-br
+copyright: © FGL Galpões
+disableKinds:
+  - taxonomy
+  - term
+defaultContentLanguage: pt
+enableRobotsTXT: yes
+timeZone: America/Sao_Paulo
+theme: hugo-theme-gallery
+params:
+  defaultTheme: dark
+  description: Example site for hugo-theme-gallery
+  title: Galeria de fotos e descrição dos imóveis
+author:
+  name: FGL Galpões Industriais
+outputs:
+  home:
+    - HTML
+    - RSS
+  page: HTML
+  section: HTML
+imaging:
+  exif:
+    disableDate: no
+    disableLatLong: yes
+    includeFields: ImageDescription
+  quality: 75
+  resampleFilter: CatmullRom
+module:
+  hugoVersion:
+    extended: no
+    min: 0.112.0
+  mounts:
+    - source: assets
+      target: assets
+    - source: hugo_stats.json
+      target: assets/watching/hugo_stats.json
+build:
+  cachebusters:
+    - source: assets/watching/hugo_stats\.json
+      target: styles\.css
+    - source: (postcss|tailwind)\.config\.js
+      target: css
+    - source: assets/.*\.(js)
+      target: js
+    - source: assets/.*\.(.*)$
+      target: $1
+  writeStats: yes
+menu:
+  footer:
+    - name: WhatsApp
+      image: assets/logowhasapp\.jpeg
+      url: https://wa.me/+5511963002168
+      weight: 4
+publishDir: "docs"
