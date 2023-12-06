@@ -2,20 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/galpao-116/</loc>
-    <lastmod>2023-04-01T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>/galpao-140/</loc>
-    <lastmod>2023-04-01T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>/galpao-164/</loc>
-    <lastmod>2023-04-01T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>/galpao-188/</loc>
-    <lastmod>2023-04-01T00:00:00-03:00</lastmod>
-  </url><url>
-    <loc>/localiza%C3%A7%C3%A3o/</loc>
-  </url><url>
     <loc>/galpao-116/fachada/</loc>
     <lastmod>2023-04-01T00:00:00-03:00</lastmod>
   </url><url>
@@ -26,6 +12,18 @@
     <lastmod>2023-04-01T00:00:00-03:00</lastmod>
   </url><url>
     <loc>/galpao-188/fachada/</loc>
+    <lastmod>2023-04-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>/galpao-116/</loc>
+    <lastmod>2023-04-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>/galpao-140/</loc>
+    <lastmod>2023-04-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>/galpao-164/</loc>
+    <lastmod>2023-04-01T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>/galpao-188/</loc>
     <lastmod>2023-04-01T00:00:00-03:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -94,4 +92,6 @@
     <loc>/imprint/</loc>
   </url><url>
     <loc>/about/</loc>
+  </url><url>
+    <loc>/localiza%C3%A7%C3%A3o/</loc>
   </url></urlset>

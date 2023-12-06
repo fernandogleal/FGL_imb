@@ -1,82 +1,8 @@
 baseurl: http://www.fgl.imb.br/
 metaDataFormat: yaml
-title: Blist Multilingual Theme
+title: Galeria de fotos FGL Galpões
 theme: blist-hugo-theme
-DefaultContentLanguage: en
-DefaultContentLanguageInSubdir: yes
-languages:
-  de:
-    contentDir: content/de
-    description: Modernes Blog-Theme für Ihre Hugo-Site.
-    languageName: Deutsch
-    menu:
-      main:
-        - name: Blog
-          url: blog
-          weight: 1
-        - name: Über mich
-          url: page/about/
-          weight: 2
-        - name: Tags
-          url: tags
-          weight: 3
-    params:
-      introPhoto: /picture.jpg
-      introSubtitle: 26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen,
-        Bloggen und Malen hat
-      introTitle: Hallo, ich bin Katheryn Fox
-      logo: /blist-logo-de.png
-    title: Blist (mehrsprachig)
-    weight: 2
-  dy:
-    contentDir: content/dy
-    languageName: Test Language
-    weight: 3
-  en:
-    contentDir: content/en
-    languageName: English
-    menu:
-      main:
-        - name: Blog
-          url: blog
-          weight: 1
-        - name: About
-          url: page/about/
-          weight: 2
-        - name: Tags
-          url: tags
-          weight: 3
-        - name: Top Post
-          url: /en/blog/emoji-support/
-          weight: 4
-    params:
-      introPhoto: /picture.jpg
-      introSubtitle: 26 y/o junior developer who enjoys social card games, blogging
-        and painting
-      introTitle: Hey! I'm Katheryn Fox
-      logo: /blist-logo.png
-    weight: 1
-  fr:
-    contentDir: content/fr
-    languageName: Français
-    menu:
-      main:
-        - name: Blog
-          url: blog
-          weight: 1
-        - name: À propos
-          url: page/about/
-          weight: 2
-        - name: Tags
-          url: tags
-          weight: 3
-    params:
-      introPhoto: /picture.jpg
-      introSubtitle: Développeuse junior de 26 ans qui adore les jeux de société,
-        le blogging et la peinture
-      introTitle: Salut! Je suis Katheryn Fox
-      logo: /blist-logo.png
-    weight: 1
+DefaultContentLanguage: pt
 params:
   ascentColor: bg-blue-100
   comments:
@@ -105,40 +31,6 @@ params:
       icons:
         - url: https://twitter.com/
           website: twitter
-        - url: https://linkedin.com/in/
-          website: linkedin
-        - url: https://www.xing.com/profile/
-          website: xing
-        - url: https://t.me/
-          website: telegram
-        - url: https://github.com/
-          website: github
-        - url: https://www.buymeacoffee.com/
-          website: buymeacoffee
-        - url: https://medium.com/
-          website: medium
-        - url: https://reddit.com/
-          website: reddit
-        - url: https://dribbble.com/
-          website: dribbble
-        - url: https://stackoverflow.com/
-          website: stackoverflow
-        - url: https://forum.xda-developers.com/
-          website: xda
-        - url: https://tiktok.com
-          website: tiktok
-        - url: https://scholar.google.com/
-          website: googlescholar
-        - url: https://joinmastodon.org
-          website: mastodon
-        - url: https://youtube.com
-          website: youtube
-        - url: https://instagram.com
-          website: instagram
-        - url: https://facebook.com
-          website: facebook
-        - url: https://behance.net
-          website: behance
       title: Follow me
   searchKeys:
     - tags
@@ -148,11 +40,7 @@ params:
     - content
     - link
     - author
-  toc: yes
-menu:
-  main:
-    - name: About
-      url: /about
+  toc: no
 build:
   writeStats: yes
 outputs:

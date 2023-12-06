@@ -1,9 +1,5 @@
 ---
 layout: page
-menu:
-  main:
-    weight: 1
-rss_ignore: true
 title: Geral
 ---
 
